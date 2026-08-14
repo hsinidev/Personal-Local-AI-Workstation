@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "local-memory": {
+      "command": "python",
+      "args": ["-m", "core.memory.mcp_server"],
+      "env": {
+        "DATABASE_PATH": "core/memory/workstation_memory.db"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "swarm-orchestrator": {
+      "command": "python",
+      "args": ["-m", "core.orchestrator.mcp_server"],
+      "env": {
+        "ORCHESTRATOR_PORT": "8080"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

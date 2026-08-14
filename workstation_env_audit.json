@@ -1,0 +1,48 @@
+{
+  "audit_timestamp": "2026-08-14T01:58:00.000Z",
+  "workstation_id": "personal-local-ai-workstation-01",
+  "system_info": {
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "binaries": {
+    "node": {
+      "installed": true,
+      "version": "v24.19.0",
+      "status": "Ready"
+    },
+    "npm": {
+      "installed": true,
+      "version": "11.17.0",
+      "status": "Ready"
+    },
+    "python": {
+      "installed": true,
+      "version": "Python 3.10.0",
+      "status": "Ready"
+    },
+    "cargo": {
+      "installed": true,
+      "version": "cargo 1.97.1 (c980f4866 2026-06-30)",
+      "status": "Ready"
+    },
+    "ollama": {
+      "installed": true,
+      "version": "0.32.5",
+      "status": "Installed (CLI Ready)"
+    },
+    "docker": {
+      "installed": true,
+      "version": "Docker version 29.6.1, build 8900f1d",
+      "status": "Ready"
+    }
+  },
+  "services": {
+    "ollama_endpoint": {
+      "url": "http://127.0.0.1:11434/api/tags",
+      "status": "Offline",
+      "models_available": [],
+      "error": "Connection refused at 127.0.0.1:11434 (Service daemon not active)"
+    }
+  }
+}

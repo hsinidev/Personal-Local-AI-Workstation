@@ -1,0 +1,35 @@
+# Dependencies & Next.js / WebView2 cache
+node_modules/
+.npm/
+.next/
+*.tsbuildinfo
+*.WebView2/
+EBWebView/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+
+# .NET Build artifacts
+launcher_net/bin/
+launcher_net/obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Build & PyInstaller temps
+build/
+*.spec
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp

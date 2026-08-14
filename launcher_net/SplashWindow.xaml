@@ -1,0 +1,84 @@
+<Window x:Class="PersonalLocalAIWorkstation.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Personal Local AI Workstation v2.0"
+        Height="430" Width="760"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ShowInTaskbar="True"
+        Topmost="True">
+
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="35" ShadowDepth="0" Color="#00e5ff" Opacity="0.35"/>
+    </Window.Effect>
+
+    <Border CornerRadius="16" Background="#060911" BorderBrush="#1e293b" BorderThickness="1.5" ClipToBounds="True">
+        <Grid>
+            <!-- Background Artwork (Adobe / Maya / DaVinci Style) -->
+            <Image Source="pack://application:,,,/assets/splash.png" Stretch="UniformToFill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <!-- Gradient Dark Vignette Overlay for Crisp Typography -->
+            <Border>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#20060911" Offset="0.0"/>
+                        <GradientStop Color="#40060911" Offset="0.5"/>
+                        <GradientStop Color="#E6060911" Offset="0.82"/>
+                        <GradientStop Color="#FA060911" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <!-- Top Header Badges -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="24,20">
+                <Border Background="#1A00E5FF" BorderBrush="#3300E5FF" BorderThickness="1" CornerRadius="8" Padding="10,4" Margin="0,0,8,0">
+                    <TextBlock Text="v2.0 ADVANCED RAG" Foreground="#00E5FF" FontFamily="Consolas" FontSize="11" FontWeight="Bold"/>
+                </Border>
+                <Border Background="#1AA855F7" BorderBrush="#33A855F7" BorderThickness="1" CornerRadius="8" Padding="10,4">
+                    <TextBlock Text="OFFLINE-FIRST" Foreground="#C084FC" FontFamily="Consolas" FontSize="11" FontWeight="Bold"/>
+                </Border>
+            </StackPanel>
+
+            <!-- Bottom Control Panel: Progress & Status -->
+            <Grid VerticalAlignment="Bottom" Margin="30,0,30,22">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Status Text & Percentage -->
+                <Grid Grid.Row="0" Margin="0,0,0,8">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Ellipse Width="7" Height="7" Fill="#00E5FF" Margin="0,0,8,0">
+                            <Ellipse.Effect>
+                                <DropShadowEffect BlurRadius="8" Color="#00E5FF" ShadowDepth="0"/>
+                            </Ellipse.Effect>
+                        </Ellipse>
+                        <TextBlock x:Name="StatusText" Text="INITIALIZING LOCAL NEURAL CORE..." Foreground="#CBD5E1" FontFamily="Consolas" FontSize="11" FontWeight="SemiBold"/>
+                    </StackPanel>
+                    <TextBlock x:Name="PercentText" Text="15%" Foreground="#00E5FF" FontFamily="Consolas" FontSize="11" FontWeight="Bold" HorizontalAlignment="Right"/>
+                </Grid>
+
+                <!-- Neon Glowing Progress Bar -->
+                <Border Grid.Row="1" Height="5" CornerRadius="2.5" Background="#1E293B" ClipToBounds="True">
+                    <Grid>
+                        <ProgressBar x:Name="LoadProgress" Value="15" Minimum="0" Maximum="100" Height="5" Background="Transparent" BorderThickness="0" Foreground="#00E5FF">
+                            <ProgressBar.Effect>
+                                <DropShadowEffect BlurRadius="10" Color="#00E5FF" ShadowDepth="0"/>
+                            </ProgressBar.Effect>
+                        </ProgressBar>
+                    </Grid>
+                </Border>
+
+                <!-- Developer Attribution & Copyright Footer -->
+                <Grid Grid.Row="2" Margin="0,10,0,0">
+                    <TextBlock Text="Developed by Hsini Mohamed • https://hsini.dev • hsini.jk@gmail.com" Foreground="#64748B" FontFamily="Consolas" FontSize="10" VerticalAlignment="Center"/>
+                    <TextBlock Text="Ready for GPU / CPU Sovereign Execution" Foreground="#475569" FontFamily="Consolas" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>
