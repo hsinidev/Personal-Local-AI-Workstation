@@ -1,4 +1,40 @@
 <div align="center">
+# 🚀 Personal Local Ai Workstation
+### *High-Performance Autonomous Intelligence & Modular Python Engine*
+
+<p align="center">
+  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
+  [![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge)](https://github.com/hsinidev)
+  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+</p>
+
+<img src="assets/app_icon.png" alt="Personal Local AI Workstation Logo" width="128" style="border-radius: 28px; box-shadow: 0 12px 36px rgba(99, 102, 241, 0.35); margin-bottom: 16px;" />
+
+</div>
+
+---
+## 🌟 Executive Overview
+
+**Personal Local Ai Workstation** is an enterprise-grade artificial intelligence solution engineered for low-latency reasoning, deterministic workflow automation, and high-accuracy data orchestration. Built with modern **Python** and **Python**, it delivers modular architecture and seamless developer ergonomics.
+
+## ⚡ Key Highlights & Capabilities
+
+- **Autonomous Orchestration**: Advanced state management and deterministic execution pipelines.
+- **Modular Architecture**: Plug-and-play integrations with clean abstraction layers.
+- **Zero-Overhead Processing**: High-throughput processing optimized for local and cloud environments.
+- **Developer-First APIs**: Type-safe interfaces with comprehensive observability.
+
+---
+## 🏗️ Architecture & Technology Stack
+
+- **Primary Language**: `Python`
+- **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
+- **License**: MIT Open Source Attribution
+
+## 📖 Deep-Dive Technical Documentation
+
+<div align="center">
 
 <img src="assets/app_icon.png" alt="Personal Local AI Workstation Logo" width="128" style="border-radius: 28px; box-shadow: 0 12px 36px rgba(99, 102, 241, 0.35); margin-bottom: 16px;" />
 
@@ -7,18 +43,11 @@
 
 <p align="center">
   <a href="https://github.com/hsinidev/Personal-Local-AI-Workstation/releases/latest">
-    <img src="https://img.shields.io/github/v/release/hsinidev/Personal-Local-AI-Workstation?color=6366f1&label=Release&style=for-the-badge&logo=github" alt="Latest Release" />
   </a>
   <a href="https://github.com/hsinidev/Personal-Local-AI-Workstation/releases">
-    <img src="https://img.shields.io/github/downloads/hsinidev/Personal-Local-AI-Workstation/total?color=10b981&label=Downloads&style=for-the-badge&logo=windows" alt="Total Downloads" />
   </a>
   <a href="https://github.com/hsinidev/Personal-Local-AI-Workstation/stargazers">
-    <img src="https://img.shields.io/github/stars/hsinidev/Personal-Local-AI-Workstation?color=f59e0b&style=for-the-badge&logo=apachespark" alt="GitHub Stars" />
   </a>
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-3b82f6?style=for-the-badge&logo=linux&logoColor=white" alt="Platform Support" />
-  <img src="https://img.shields.io/badge/.NET-10.0%20Native%20WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 10 Native" />
-  <img src="https://img.shields.io/badge/Ollama-100%25%20Offline%20LLMs-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama Offline" />
-  <img src="https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge" alt="License MIT" />
 </p>
 
 <br />
@@ -37,7 +66,6 @@
   <a href="#-architectural-overview"><b>🏗️ Architecture (Mermaid)</b></a> •
   <a href="#-core-superpowers--technical-innovations"><b>⚡ Superpowers</b></a> •
   <a href="#-cloud-vs-sovereign-local-matrix"><b>📊 Comparison Matrix</b></a> •
-  <a href="#-developer--source-build-guide"><b>🛠️ Developer Build Guide</b></a> •
   <a href="#-rest-api--ipc-specification"><b>📡 REST API Reference</b></a>
 </p>
 
@@ -69,7 +97,6 @@
 
 ## 💡 Why Personal Local AI Workstation?
 
-Modern AI developer tools force you into an uncomfortable trade-off: **surrender private IP and proprietary code to cloud servers**, or wrestle with brittle, fragmented local command-line scripts.
 
 **Personal Local AI Workstation v2.0 eliminates that compromise:**
 
@@ -152,7 +179,6 @@ flowchart TB
 
 ### 4. 🛠️ Autonomous Self-Healing Code Matrix
 - **AST Error Trapping**: Intercepts syntax errors and execution exceptions in real time.
-- **Deterministic Auto-Patching**: Automatically computes unified diffs and applies verified patches without manual developer intervention.
 
 ### 5. 🎛️ Dynamic Local LLM Multi-Model Mesh
 - **Live Model Hot-Switching**: Instantly swap models on the fly (`qwen2.5-coder:7b`, `llama3.3:latest`, `mistral:latest`, `deepseek-r1`, `nomic-embed-text`).
@@ -165,7 +191,6 @@ flowchart TB
 | Architectural Dimension | ☁️ Cloud AI Assistants (Copilot / Cloud IDEs) | 🚀 Personal Local AI Workstation v2.0 |
 | :--- | :--- | :--- |
 | **Data Privacy & Sovereignty** | ❌ Code sent to 3rd-party remote servers | ✅ **100% Offline & Air-Gapped (Zero Telemetry)** |
-| **Subscription & API Costs** | ❌ $20–$200/month per developer | ✅ **$0 / Free & Open Source (MIT)** |
 | **Startup Latency** | ⚠️ 3.5s – 8.0s Electron boot | ✅ **< 0.05s Native .NET 10 Launcher** |
 | **Code Retrieval Method** | ⚠️ Naive text line chunking | ✅ **AST-Aware Class/Method Slicing + RRF** |
 | **Agent Orchestration** | ⚠️ Single-turn linear chat prompts | ✅ **5-Node Asynchronous Swarm DAG** |
@@ -192,7 +217,6 @@ flowchart TB
 
 ---
 
-## 🛠️ Developer & Source Build Guide
 
 For engineers wanting to contribute or customize the workstation from source:
 
@@ -250,7 +274,6 @@ The workstation exposes a high-throughput, low-latency FastAPI backend on `http:
 
 ---
 
-## 👨‍💻 Developer Information
 
 <table align="center" style="border: none; background: transparent; width: 100%;">
   <tr>
@@ -266,9 +289,6 @@ The workstation exposes a high-throughput, low-latency FastAPI backend on `http:
         Specializing in sovereign offline AI systems, autonomous multi-agent swarm DAGs, high-performance C# / .NET native applications, and deterministic local RAG vector architectures.
       </p>
       <p>
-        <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-2563eb?style=flat-square&logo=safari&logoColor=white" alt="Portfolio" /></a>
-        <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/GitHub-@hsinidev-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-        <a href="mailto:hsini.moahmed@gmail.com"><img src="https://img.shields.io/badge/Email-hsini.moahmed@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
       </p>
     </td>
   </tr>
@@ -276,12 +296,67 @@ The workstation exposes a high-throughput, low-latency FastAPI backend on `http:
 
 ---
 
-## 📄 License & Community
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete details.
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/hsinidev/Personal-Local-AI-Workstation/issues).
 
 <div align="center">
   <sub>⚡ Engineered with sovereign precision by <b><a href="https://hsini.dev">Hsini Mohamed</a></b>.</sub>
+</div>
+
+---
+## 🚀 Quick Start & Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/hsinidev/Personal-Local-AI-Workstation.git
+cd Personal-Local-AI-Workstation
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the Application
+```bash
+python main.py
+```
+
+
+---
+
+## 👨‍💻 System Architect & Author
+
+<table align="center" style="border: none; background: transparent; width: 100%;">
+  <tr>
+    <td align="center" width="160" style="border: none; padding: 12px;">
+      <img src="https://avatars.githubusercontent.com/u/232697467?v=4" width="120" height="120" style="border-radius: 50%; box-shadow: 0 8px 24px rgba(99,102,241,0.3); border: 2.5px solid #6366f1;" alt="Hsini Mohamed" />
+      <br /><br />
+      <b>Hsini Mohamed</b><br />
+      <sub>Morocco 🇲🇦</sub>
+    </td>
+    <td style="border: none; padding: 12px; vertical-align: middle;">
+      <h3 style="margin-top: 0;">🚀 System Architect & Full-Stack Engineer</h3>
+      <p style="font-size: 0.95rem; line-height: 1.6; color: #475569;">
+        Specializing in high-performance autonomous AI systems, deterministic multi-agent swarms, enterprise cloud architecture, and modern full-stack engineering.
+      </p>
+      <p>
+        <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-2563eb?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+        <a href="mailto:contact@hsini.dev"><img src="https://img.shields.io/badge/Email-contact@hsini.dev-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+        <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/GitHub-@hsinidev-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+        <a href="https://linkedin.com/in/hsinidev/"><img src="https://img.shields.io/badge/LinkedIn-hsinidev-0077b5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📄 License & Attribution
+
+This project is distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete terms.
+
+<div align="center">
+  <sub>⚡ Designed, architected, and maintained with engineering precision by <b><a href="https://hsini.dev">Hsini Mohamed</a></b>.</sub>
 </div>
