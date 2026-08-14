@@ -83,6 +83,24 @@ Built with a high-performance **.NET 10 Native Launcher**, the application boots
 
 ---
 
+## 🖥️ Live Control Center Showcase
+
+<div align="center">
+
+### 🐝 1. Swarm DAG Multi-Agent Pipeline & Ollama Hardware Telemetry
+<img src="assets/dashboard_swarm_telemetry.png" alt="Swarm DAG Orchestrator & Ollama Telemetry Matrix" width="100%" style="border-radius: 12px; border: 1px solid #1e293b; margin: 8px 0 20px 0;" />
+<p align="center"><em>Real-time topological dispatch of 5 sub-agent worker nodes with latency tracking and local model parameter matrix.</em></p>
+
+<br />
+
+### 📚 2. Advanced Hybrid RAG Inspector & Live Code Chatbot
+<img src="assets/dashboard_rag_chatbot.png" alt="Hybrid RAG Inspector & Live Code Assistant" width="100%" style="border-radius: 12px; border: 1px solid #1e293b; margin: 8px 0 20px 0;" />
+<p align="center"><em>AST-aware code chunk inspection with Reciprocal Rank Fusion (RRF) scores alongside the live Ollama coding assistant.</em></p>
+
+</div>
+
+---
+
 ## 📊 Cloud vs. Local Workstation
 
 | Feature | ☁️ Cloud AI (OpenAI / Anthropic) | 🚀 Personal Local AI Workstation v2.0 |
