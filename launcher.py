@@ -1,6 +1,6 @@
 """
 Personal Local AI Workstation - Standalone Launcher & Client Runner
-Author: Hsini Mohamed (https://hsini.dev | hsini.jk@gmail.com)
+Author: Hsini Mohamed (https://hsini.dev | contact@hsini.dev)
 Zero-configuration one-click launcher for clients & production distribution.
 """
 
@@ -64,7 +64,7 @@ def run_server():
 def main():
     print("=" * 60)
     print("  [>] PERSONAL LOCAL AI WORKSTATION v2.0 (ADVANCED SUITE)")
-    print("  [*] Developed by: Hsini Mohamed (hsini.jk@gmail.com)")
+    print("  [*] Developed by: Hsini Mohamed (contact@hsini.dev)")
     print("  [*] Portfolio: https://hsini.dev")
     print("=" * 60)
 

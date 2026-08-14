@@ -1,6 +1,6 @@
 """
 PyInstaller Packaging Script for Personal Local AI Workstation
-Author: Hsini Mohamed (hsini.jk@gmail.com | https://hsini.dev)
+Author: Hsini Mohamed (contact@hsini.dev | https://hsini.dev)
 Compiles a single standalone .exe binary for zero-configuration client distribution.
 """
 

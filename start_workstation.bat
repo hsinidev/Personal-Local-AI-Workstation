@@ -4,7 +4,7 @@ color 0B
 
 echo =====================================================================
 echo   🚀 PERSONAL LOCAL AI WORKSTATION v2.0 (ADVANCED RAG SUITE)
-echo   👨‍💻 Developed by: Hsini Mohamed (hsini.jk@gmail.com)
+echo   👨‍💻 Developed by: Hsini Mohamed (contact@hsini.dev)
 echo   🌐 Portfolio: https://hsini.dev
 echo =====================================================================
 echo.

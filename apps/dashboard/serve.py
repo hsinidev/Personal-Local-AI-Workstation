@@ -472,7 +472,7 @@ DASHBOARD_HTML = """<!DOCTYPE html>
       <div class="space-y-2.5">
         <h4 class="text-xs font-mono text-slate-400 uppercase font-semibold">Direct Communication &amp; Ask Developer</h4>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          <a href="mailto:hsini.jk@gmail.com?subject=Personal%20Local%20AI%20Workstation%20Support%20%26%20Inquiry" class="p-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white rounded-xl text-xs font-mono font-medium flex items-center justify-center gap-2 shadow-lg shadow-purple-900/30 transition-all cursor-pointer">
+          <a href="mailto:contact@hsini.dev?subject=Personal%20Local%20AI%20Workstation%20Support%20%26%20Inquiry" class="p-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white rounded-xl text-xs font-mono font-medium flex items-center justify-center gap-2 shadow-lg shadow-purple-900/30 transition-all cursor-pointer">
             <span>✉️</span> Ask Developer (Email)
           </a>
           <a href="https://hsini.dev" target="_blank" rel="noopener" class="p-3 bg-slate-900 hover:bg-slate-800 border border-slate-700 text-cyan-300 rounded-xl text-xs font-mono font-medium flex items-center justify-center gap-2 transition-all cursor-pointer">
@@ -486,7 +486,7 @@ DASHBOARD_HTML = """<!DOCTYPE html>
           </a>
         </div>
         <div class="text-[11px] font-mono text-slate-500 text-center pt-1">
-          Direct Inquiries: <span class="text-purple-300 select-all">hsini.jk@gmail.com</span> | <span class="text-slate-400 select-all">contact@hsini.dev</span>
+          Direct Inquiries: <span class="text-purple-300 select-all">contact@hsini.dev</span> | <span class="text-slate-400 select-all">https://hsini.dev</span>
         </div>
       </div>
     </div>

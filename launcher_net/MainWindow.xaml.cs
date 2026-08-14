@@ -47,13 +47,13 @@ namespace PersonalLocalAIWorkstation
             {
                 Process.Start(new ProcessStartInfo
                 {
-                    FileName = "mailto:hsini.jk@gmail.com?subject=Personal%20Local%20AI%20Workstation%20Inquiry%20%26%20Support",
+                    FileName = "mailto:contact@hsini.dev?subject=Personal%20Local%20AI%20Workstation%20Inquiry%20%26%20Support",
                     UseShellExecute = true
                 });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show($"Contact Developer: hsini.jk@gmail.com\nPortfolio: https://hsini.dev", "Developer Information");
+                MessageBox.Show($"Contact Developer: contact@hsini.dev\nPortfolio: https://hsini.dev", "Developer Information");
             }
         }
 

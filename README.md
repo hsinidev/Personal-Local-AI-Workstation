@@ -313,7 +313,7 @@ curl -X POST http://127.0.0.1:3009/api/self-heal \
 **Full-Stack Developer & SaaS Architect · AI Systems Engineer**  
 📍 **Morocco 🇲🇦** *(Available for Worldwide Remote Work & Custom Contracts)*
 
-[![Email](https://img.shields.io/badge/Email-hsini.jk%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hsini.jk@gmail.com)
+[![Email](https://img.shields.io/badge/Email-contact%40hsini.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@hsini.dev)
 [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=black)](https://hsini.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-hsinidev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hsinidev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hsinidev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hsinidev/)
@@ -335,4 +335,4 @@ curl -X POST http://127.0.0.1:3009/api/self-heal \
 
 This project is licensed under the **[MIT License](LICENSE)**.
 
-Developed with precision and passion by **[Hsini Mohamed](https://hsini.dev)** (`hsini.jk@gmail.com`).
+Developed with precision and passion by **[Hsini Mohamed](https://hsini.dev)** (`contact@hsini.dev`).

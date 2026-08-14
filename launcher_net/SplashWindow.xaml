@@ -75,7 +75,7 @@
 
                 <!-- Developer Attribution & Copyright Footer -->
                 <Grid Grid.Row="2" Margin="0,10,0,0">
-                    <TextBlock Text="Developed by Hsini Mohamed • https://hsini.dev • hsini.jk@gmail.com" Foreground="#64748B" FontFamily="Consolas" FontSize="10" VerticalAlignment="Center"/>
+                    <TextBlock Text="Developed by Hsini Mohamed • https://hsini.dev • contact@hsini.dev" Foreground="#64748B" FontFamily="Consolas" FontSize="10" VerticalAlignment="Center"/>
                     <TextBlock Text="Ready for GPU / CPU Sovereign Execution" Foreground="#475569" FontFamily="Consolas" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 </Grid>
             </Grid>
